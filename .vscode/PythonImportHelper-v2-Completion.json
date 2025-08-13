@@ -1,58 +1,19 @@
 [
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "django.utils.timezone",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -104,6 +65,14 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -112,6 +81,406 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -157,6 +526,159 @@
         "description": "django.shortcuts",
         "isExtraImport": true,
         "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "Department",
+        "importPath": "Department.models",
+        "description": "Department.models",
+        "isExtraImport": true,
+        "detail": "Department.models",
+        "documentation": {}
+    },
+    {
+        "label": "Department",
+        "importPath": "Department.models",
+        "description": "Department.models",
+        "isExtraImport": true,
+        "detail": "Department.models",
+        "documentation": {}
+    },
+    {
+        "label": "Department",
+        "importPath": "Department.models",
+        "description": "Department.models",
+        "isExtraImport": true,
+        "detail": "Department.models",
+        "documentation": {}
+    },
+    {
+        "label": "Department",
+        "importPath": "Department.models",
+        "description": "Department.models",
+        "isExtraImport": true,
+        "detail": "Department.models",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Batch",
+        "importPath": "Batch.models",
+        "description": "Batch.models",
+        "isExtraImport": true,
+        "detail": "Batch.models",
+        "documentation": {}
+    },
+    {
+        "label": "Batch",
+        "importPath": "Batch.models",
+        "description": "Batch.models",
+        "isExtraImport": true,
+        "detail": "Batch.models",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "importPath": "Course.models",
+        "description": "Course.models",
+        "isExtraImport": true,
+        "detail": "Course.models",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
         "documentation": {}
     },
     {
@@ -185,14 +707,6 @@
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -201,36 +715,12 @@
         "documentation": {}
     },
     {
-        "label": "django.utils.timezone",
+        "label": "datetime",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "django.utils.timezone",
-        "description": "django.utils.timezone",
-        "detail": "django.utils.timezone",
-        "documentation": {}
-    },
-    {
-        "label": "ValidationError",
-        "importPath": "django.forms",
-        "description": "django.forms",
-        "isExtraImport": true,
-        "detail": "django.forms",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "django.utils",
-        "description": "django.utils",
-        "isExtraImport": true,
-        "detail": "django.utils",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "django.utils",
-        "description": "django.utils",
-        "isExtraImport": true,
-        "detail": "django.utils",
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -243,12 +733,210 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Batch.migrations.0001_initial",
+        "description": "QuizApp.Batch.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Batch',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('Batch', models.IntegerField()),",
+        "detail": "QuizApp.Batch.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Batch.migrations.0002_rename_batch_batch_batch_and_more",
+        "description": "QuizApp.Batch.migrations.0002_rename_batch_batch_batch_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Batch', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='batch',\n            old_name='Batch',\n            new_name='batch',\n        ),",
+        "detail": "QuizApp.Batch.migrations.0002_rename_batch_batch_batch_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "BatchAdmin",
+        "kind": 6,
+        "importPath": "QuizApp.Batch.admin",
+        "description": "QuizApp.Batch.admin",
+        "peekOfCode": "class BatchAdmin(admin.ModelAdmin):\n    list_display = (\"batch\", \"division\", \"title\", \"entryDate\", \"complete\")\n    search_fields = (\"batch\", \"division\", \"title\")\n    list_filter = (\"complete\", \"division\")\n    readonly_fields=['title']",
+        "detail": "QuizApp.Batch.admin",
+        "documentation": {}
+    },
+    {
+        "label": "BatchConfig",
+        "kind": 6,
+        "importPath": "QuizApp.Batch.apps",
+        "description": "QuizApp.Batch.apps",
+        "peekOfCode": "class BatchConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Batch'",
+        "detail": "QuizApp.Batch.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Batch",
+        "kind": 6,
+        "importPath": "QuizApp.Batch.models",
+        "description": "QuizApp.Batch.models",
+        "peekOfCode": "class Batch(models.Model):\n    batch = models.IntegerField()\n    division = models.CharField(max_length=1)\n    title = models.CharField(max_length=10)  # Required max_length\n    entryDate = models.DateField(default=timezone.now)\n    complete = models.BooleanField(default=False)\n    def __str__(self):\n        return f\"{self.batch} - {self.division}\"\n    def save(self, *args, **kwargs):\n        # Validation",
+        "detail": "QuizApp.Batch.models",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Course.migrations.0001_initial",
+        "description": "QuizApp.Course.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('Department', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Course',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "QuizApp.Course.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Course.migrations.0002_rename_coursecode_course_coursecode_and_more",
+        "description": "QuizApp.Course.migrations.0002_rename_coursecode_course_coursecode_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Course', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='course',\n            old_name='CourseCode',\n            new_name='courseCode',\n        ),",
+        "detail": "QuizApp.Course.migrations.0002_rename_coursecode_course_coursecode_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "CourseAdmin",
+        "kind": 6,
+        "importPath": "QuizApp.Course.admin",
+        "description": "QuizApp.Course.admin",
+        "peekOfCode": "class CourseAdmin(admin.ModelAdmin):\n    list_display = (\"courseCode\", \"courseName\", \"credit\", \"department\", \"entryDate\")\n    search_fields = (\"courseCode\", \"courseName\", \"department\")\n    list_filter = (\"department\",)",
+        "detail": "QuizApp.Course.admin",
+        "documentation": {}
+    },
+    {
         "label": "CourseConfig",
         "kind": 6,
         "importPath": "QuizApp.Course.apps",
         "description": "QuizApp.Course.apps",
         "peekOfCode": "class CourseConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Course'",
         "detail": "QuizApp.Course.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Course",
+        "kind": 6,
+        "importPath": "QuizApp.Course.models",
+        "description": "QuizApp.Course.models",
+        "peekOfCode": "class Course(models.Model):\n    courseCode = models.CharField(max_length=10, unique=True)  # e.g., CSE101\n    courseName = models.CharField(max_length=100)\n    credit = models.DecimalField(max_digits=4, decimal_places=2)  # e.g., 3.00\n    department =models.ForeignKey(Department, on_delete=models.CASCADE)\n    entryDate = models.DateField(default=timezone.now)\n    def __str__(self):\n        return f\"{self.courseCode} - {self.courseName}\"\n    def save(self, *args, **kwargs):\n        # Validation",
+        "detail": "QuizApp.Course.models",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Department.migrations.0001_initial",
+        "description": "QuizApp.Department.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Department',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('Title', models.CharField(max_length=100)),",
+        "detail": "QuizApp.Department.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Department.migrations.0002_rename_start_department_start_and_more",
+        "description": "QuizApp.Department.migrations.0002_rename_start_department_start_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Department', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='department',\n            old_name='Start',\n            new_name='start',\n        ),",
+        "detail": "QuizApp.Department.migrations.0002_rename_start_department_start_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "DepartmentAdmin",
+        "kind": 6,
+        "importPath": "QuizApp.Department.admin",
+        "description": "QuizApp.Department.admin",
+        "peekOfCode": "class DepartmentAdmin(admin.ModelAdmin):\n  '''Admin View for Department'''\n  list_display = ['id','title','start']",
+        "detail": "QuizApp.Department.admin",
+        "documentation": {}
+    },
+    {
+        "label": "DepartmentConfig",
+        "kind": 6,
+        "importPath": "QuizApp.Department.apps",
+        "description": "QuizApp.Department.apps",
+        "peekOfCode": "class DepartmentConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Department'",
+        "detail": "QuizApp.Department.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Department",
+        "kind": 6,
+        "importPath": "QuizApp.Department.models",
+        "description": "QuizApp.Department.models",
+        "peekOfCode": "class Department(models.Model):\n    title = models.CharField(max_length=100)\n    fullForm = models.TextField(max_length=50,blank=True)\n    start = models.DateField(default=timezone.now)\n    def __str__(self):\n        return self.title\n    def save(self,*args, **kwargs):\n      self.title= self.title.upper()\n      self.fullForm  = self.fullForm.title()\n      return super().save()",
+        "detail": "QuizApp.Department.models",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Quiz.migrations.0001_initial",
+        "description": "QuizApp.Quiz.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('Batch', '0001_initial'),\n        ('Course', '0001_initial'),\n        ('Department', '0001_initial'),\n        ('Teacher', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(",
+        "detail": "QuizApp.Quiz.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Quiz.migrations.0002_rename_end_quiz_end_rename_start_quiz_start_and_more",
+        "description": "QuizApp.Quiz.migrations.0002_rename_end_quiz_end_rename_start_quiz_start_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Quiz', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='quiz',\n            old_name='End',\n            new_name='end',\n        ),",
+        "detail": "QuizApp.Quiz.migrations.0002_rename_end_quiz_end_rename_start_quiz_start_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "QuizAdmin",
+        "kind": 6,
+        "importPath": "QuizApp.Quiz.admin",
+        "description": "QuizApp.Quiz.admin",
+        "peekOfCode": "class QuizAdmin(admin.ModelAdmin):\n    list_display = ('id','course', 'batch', 'teacher','question', 'quiz_no', 'quiz_marks' ,'start', 'end', 'created_at')\n    search_fields = ('course__courseCode', 'batch__Batch', 'teacher__Name')\n    list_filter = ('department', 'batch')\n    readonly_fields=['title']",
+        "detail": "QuizApp.Quiz.admin",
+        "documentation": {}
+    },
+    {
+        "label": "QuizConfig",
+        "kind": 6,
+        "importPath": "QuizApp.Quiz.apps",
+        "description": "QuizApp.Quiz.apps",
+        "peekOfCode": "class QuizConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Quiz'",
+        "detail": "QuizApp.Quiz.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Quiz",
+        "kind": 6,
+        "importPath": "QuizApp.Quiz.models",
+        "description": "QuizApp.Quiz.models",
+        "peekOfCode": "class Quiz(models.Model):\n    title=models.CharField()\n    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)\n    batch = models.ForeignKey(Batch, on_delete=models.CASCADE)\n    department = models.ForeignKey(Department, on_delete=models.CASCADE)\n    course = models.ForeignKey(Course, on_delete=models.CASCADE)\n    quiz_no =models.IntegerField(default=1)\n    quiz_marks = models.IntegerField(default=10)\n    question = models.JSONField()  # Requires Django 3.1+ and PostgreSQL\n    start = models.DateTimeField()",
+        "detail": "QuizApp.Quiz.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "QuizApp.Quiz.urls",
+        "description": "QuizApp.Quiz.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.quiz_list_view,name='quiz_list'),  # Include quiz app's URLs\n    path('quiz/<int:pk>/', views.quiz,name='quizQuesition'),  # Include quiz app's URLs\n]",
+        "detail": "QuizApp.Quiz.urls",
+        "documentation": {}
+    },
+    {
+        "label": "quiz_list_view",
+        "kind": 2,
+        "importPath": "QuizApp.Quiz.views",
+        "description": "QuizApp.Quiz.views",
+        "peekOfCode": "def quiz_list_view(request):\n    quizzes = Quiz.objects.all()\n    active_quizzes = [quiz for quiz in quizzes if quiz.is_active()]\n    upcoming_quizzes = [quiz for quiz in quizzes if quiz.is_comming()]\n    previous_quizzes = [quiz for quiz in quizzes if quiz.is_compeleted()]\n    return render(request, 'quiz/quiz_list.html', {\n        'active_quizzes': active_quizzes,\n        'upcoming_quizzes': upcoming_quizzes,\n        'previous_quizzes': previous_quizzes,\n    })",
+        "detail": "QuizApp.Quiz.views",
+        "documentation": {}
+    },
+    {
+        "label": "quiz",
+        "kind": 2,
+        "importPath": "QuizApp.Quiz.views",
+        "description": "QuizApp.Quiz.views",
+        "peekOfCode": "def quiz(request, pk):\n    quiz = get_object_or_404(Quiz, pk=pk)\n    # Check if quiz is active\n    now = timezone.now()\n    if quiz.is_compeleted():\n        status = \"completed\"\n    elif quiz.is_active():\n        status = \"active\"\n    else:\n        status = \"coming\"",
+        "detail": "QuizApp.Quiz.views",
         "documentation": {}
     },
     {
@@ -301,7 +989,7 @@
         "kind": 5,
         "importPath": "QuizApp.QuizApp.settings",
         "description": "QuizApp.QuizApp.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    #installed application\n    'Teacher',\n    'Student',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    #installed application\n    'Department',\n    'Batch',",
         "detail": "QuizApp.QuizApp.settings",
         "documentation": {}
     },
@@ -319,7 +1007,7 @@
         "kind": 5,
         "importPath": "QuizApp.QuizApp.settings",
         "description": "QuizApp.QuizApp.settings",
-        "peekOfCode": "ROOT_URLCONF = 'QuizApp.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "peekOfCode": "ROOT_URLCONF = 'QuizApp.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR,'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
         "detail": "QuizApp.QuizApp.settings",
         "documentation": {}
     },
@@ -328,7 +1016,7 @@
         "kind": 5,
         "importPath": "QuizApp.QuizApp.settings",
         "description": "QuizApp.QuizApp.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR,'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
         "detail": "QuizApp.QuizApp.settings",
         "documentation": {}
     },
@@ -418,7 +1106,7 @@
         "kind": 5,
         "importPath": "QuizApp.QuizApp.urls",
         "description": "QuizApp.QuizApp.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('quiz/', include('Quiz.urls')),  # Include quiz app's URLs\n]",
         "detail": "QuizApp.QuizApp.urls",
         "documentation": {}
     },
@@ -436,8 +1124,26 @@
         "kind": 6,
         "importPath": "QuizApp.Student.migrations.0001_initial",
         "description": "QuizApp.Student.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Student',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('Name', models.CharField(max_length=30)),",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('Batch', '0001_initial'),\n        ('Department', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Student',\n            fields=[",
         "detail": "QuizApp.Student.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Student.migrations.0002_rename_admission_date_student_admission_date_and_more",
+        "description": "QuizApp.Student.migrations.0002_rename_admission_date_student_admission_date_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Student', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='student',\n            old_name='Admission_Date',\n            new_name='admission_date',\n        ),",
+        "detail": "QuizApp.Student.migrations.0002_rename_admission_date_student_admission_date_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Student.migrations.0003_remove_student_roll_alter_student_uid",
+        "description": "QuizApp.Student.migrations.0003_remove_student_roll_alter_student_uid",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Student', '0002_rename_admission_date_student_admission_date_and_more'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='student',\n            name='roll',\n        ),\n        migrations.AlterField(",
+        "detail": "QuizApp.Student.migrations.0003_remove_student_roll_alter_student_uid",
         "documentation": {}
     },
     {
@@ -445,7 +1151,7 @@
         "kind": 6,
         "importPath": "QuizApp.Student.admin",
         "description": "QuizApp.Student.admin",
-        "peekOfCode": "class StudentAdmin(admin.ModelAdmin):\n  list_display=['id','Name','UID','Department','Batch','Admission_Date']",
+        "peekOfCode": "class StudentAdmin(admin.ModelAdmin):\n  list_display=['id','name','UID','department','batch','admission_date']\n  readonly_fields=['UID']",
         "detail": "QuizApp.Student.admin",
         "documentation": {}
     },
@@ -463,7 +1169,7 @@
         "kind": 6,
         "importPath": "QuizApp.Student.models",
         "description": "QuizApp.Student.models",
-        "peekOfCode": "class Student(models.Model):\n  Name=models.CharField(max_length=30)\n  UID = models.IntegerField(unique=True)\n  Department = models.CharField(max_length=10)\n  Batch = models.CharField(max_length=3)\n  Admission_Date = models.DateField(default=timezone.now)\n  def __str__(self):\n    return f\"{0}+ {1}\".format(self.Name,self.Batch)\n  def save(self,*args, **kwargs):\n    if len(self.UID) != 8:",
+        "peekOfCode": "class Student(models.Model):\n    name = models.CharField(max_length=30)\n    department = models.ForeignKey(Department, on_delete=models.CASCADE)\n    batch = models.ForeignKey(Batch, on_delete=models.CASCADE)\n    UID = models.CharField(max_length=100, unique=True)\n    admission_date = models.DateField(default=timezone.now)\n    def __str__(self):\n        return f\"{self.name} - {self.batch}\"\n    def save(self, *args, **kwargs):\n        # Formatname",
         "detail": "QuizApp.Student.models",
         "documentation": {}
     },
@@ -472,8 +1178,26 @@
         "kind": 6,
         "importPath": "QuizApp.Teacher.migrations.0001_initial",
         "description": "QuizApp.Teacher.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Teacher',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('Name', models.CharField(max_length=30)),",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('Department', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Teacher',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "QuizApp.Teacher.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Teacher.migrations.0002_rename_department_teacher_department_and_more",
+        "description": "QuizApp.Teacher.migrations.0002_rename_department_teacher_department_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Teacher', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='teacher',\n            old_name='Department',\n            new_name='department',\n        ),",
+        "detail": "QuizApp.Teacher.migrations.0002_rename_department_teacher_department_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Teacher.migrations.0003_teacher_password",
+        "description": "QuizApp.Teacher.migrations.0003_teacher_password",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Teacher', '0002_rename_department_teacher_department_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='teacher',\n            name='password',\n            field=models.CharField(default='changeme123', max_length=128),\n        ),",
+        "detail": "QuizApp.Teacher.migrations.0003_teacher_password",
         "documentation": {}
     },
     {
@@ -481,7 +1205,7 @@
         "kind": 6,
         "importPath": "QuizApp.Teacher.admin",
         "description": "QuizApp.Teacher.admin",
-        "peekOfCode": "class TeacherAdmin(admin.ModelAdmin):\n    list_display = ['id','Name', 'UID', 'Department', 'Status', 'Join_Date']\n    search_fields = ['UID']",
+        "peekOfCode": "class TeacherAdmin(admin.ModelAdmin):\n    list_display = ['id','name', 'UID', 'department','password','status', 'join_date']\n    search_fields = ['UID']\n    readonly_fields=['UID','password']",
         "detail": "QuizApp.Teacher.admin",
         "documentation": {}
     },
@@ -499,7 +1223,7 @@
         "kind": 6,
         "importPath": "QuizApp.Teacher.models",
         "description": "QuizApp.Teacher.models",
-        "peekOfCode": "class Teacher(models.Model):\n    Name = models.CharField(max_length=30)       # CharField supports max_length\n    UID = models.CharField(max_length=20)\n    Department = models.CharField(max_length=50)\n    Status = models.CharField(max_length=30)\n    Join_Date = models.DateField(default=timezone.now)  # DateField stores date only\n    def __str__(self):\n        return f\"{self.Name} ({self.UID})\"\n    def save(self, *args, **kwargs):\n        if self.Name:",
+        "peekOfCode": "class Teacher(models.Model):\n    name = models.CharField(max_length=30)\n    department = models.ForeignKey(Department, on_delete=models.CASCADE)\n    UID = models.CharField(max_length=20, unique=True)\n    password = models.CharField(max_length=128, default=\"changeme123\")\n    status = models.CharField(max_length=30)  # e.g., Lecturer, Assistant Professor\n    join_date = models.DateField(default=timezone.now)\n    def __str__(self):\n        return f\"{self.name} ({self.UID})\"\n    def save(self, *args, **kwargs):",
         "detail": "QuizApp.Teacher.models",
         "documentation": {}
     },
