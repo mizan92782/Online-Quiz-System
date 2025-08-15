@@ -201,6 +201,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -249,6 +265,30 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -321,6 +361,22 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -454,6 +510,14 @@
         "description": "django.utils",
         "isExtraImport": true,
         "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -569,6 +633,30 @@
         "documentation": {}
     },
     {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "django.db.models.deletion",
         "kind": 6,
         "isExtraImport": true,
@@ -607,6 +695,38 @@
         "description": "Department.models",
         "isExtraImport": true,
         "detail": "Department.models",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
         "documentation": {}
     },
     {
@@ -674,6 +794,30 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "timezone",
         "importPath": "time",
         "description": "time",
@@ -721,6 +865,62 @@
         "importPath": "datetime",
         "description": "datetime",
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "Student.models",
+        "description": "Student.models",
+        "isExtraImport": true,
+        "detail": "Student.models",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "Student.models",
+        "description": "Student.models",
+        "isExtraImport": true,
+        "detail": "Student.models",
+        "documentation": {}
+    },
+    {
+        "label": "Quiz",
+        "importPath": "Quiz.models ",
+        "description": "Quiz.models ",
+        "isExtraImport": true,
+        "detail": "Quiz.models ",
+        "documentation": {}
+    },
+    {
+        "label": "QuizForm",
+        "importPath": "Quiz.forms",
+        "description": "Quiz.forms",
+        "isExtraImport": true,
+        "detail": "Quiz.forms",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "student_panel",
+        "importPath": "Student.views",
+        "description": "Student.views",
+        "isExtraImport": true,
+        "detail": "Student.views",
+        "documentation": {}
+    },
+    {
+        "label": "teacher_panel",
+        "importPath": "Teacher.views",
+        "description": "Teacher.views",
+        "isExtraImport": true,
+        "detail": "Teacher.views",
         "documentation": {}
     },
     {
@@ -901,6 +1101,15 @@
         "description": "QuizApp.Quiz.apps",
         "peekOfCode": "class QuizConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Quiz'",
         "detail": "QuizApp.Quiz.apps",
+        "documentation": {}
+    },
+    {
+        "label": "QuizForm",
+        "kind": 6,
+        "importPath": "QuizApp.Quiz.forms",
+        "description": "QuizApp.Quiz.forms",
+        "peekOfCode": "class QuizForm(forms.ModelForm):\n    class Meta:\n        model = Quiz\n        fields = [\n            'batch',\n            'department',\n            'course',\n            'quiz_no',\n            'quiz_marks',\n            'question',",
+        "detail": "QuizApp.Quiz.forms",
         "documentation": {}
     },
     {
@@ -1106,7 +1315,7 @@
         "kind": 5,
         "importPath": "QuizApp.QuizApp.urls",
         "description": "QuizApp.QuizApp.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('quiz/', include('Quiz.urls')),  # Include quiz app's URLs\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('quiz', include('Quiz.urls')),  # Include quiz app's URLs\n    path('', include('authentication.urls'),name='authentication'),  # Include quiz app's URLs\n    path('teacher/', include('Teacher.urls'),name='teacher'),  # Include quiz app's URLs\n    path('student/', include('Student.urls'),name='student'),  # Include quiz app's URLs\n]",
         "detail": "QuizApp.QuizApp.urls",
         "documentation": {}
     },
@@ -1147,11 +1356,20 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Student.migrations.0004_rename_uid_student_uid_student_password",
+        "description": "QuizApp.Student.migrations.0004_rename_uid_student_uid_student_password",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Student', '0003_remove_student_roll_alter_student_uid'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='student',\n            old_name='UID',\n            new_name='uid',\n        ),",
+        "detail": "QuizApp.Student.migrations.0004_rename_uid_student_uid_student_password",
+        "documentation": {}
+    },
+    {
         "label": "StudentAdmin",
         "kind": 6,
         "importPath": "QuizApp.Student.admin",
         "description": "QuizApp.Student.admin",
-        "peekOfCode": "class StudentAdmin(admin.ModelAdmin):\n  list_display=['id','name','UID','department','batch','admission_date']\n  readonly_fields=['UID']",
+        "peekOfCode": "class StudentAdmin(admin.ModelAdmin):\n  list_display=['id','name','uid','password','department','batch','admission_date']\n  readonly_fields=['uid']",
         "detail": "QuizApp.Student.admin",
         "documentation": {}
     },
@@ -1169,8 +1387,26 @@
         "kind": 6,
         "importPath": "QuizApp.Student.models",
         "description": "QuizApp.Student.models",
-        "peekOfCode": "class Student(models.Model):\n    name = models.CharField(max_length=30)\n    department = models.ForeignKey(Department, on_delete=models.CASCADE)\n    batch = models.ForeignKey(Batch, on_delete=models.CASCADE)\n    UID = models.CharField(max_length=100, unique=True)\n    admission_date = models.DateField(default=timezone.now)\n    def __str__(self):\n        return f\"{self.name} - {self.batch}\"\n    def save(self, *args, **kwargs):\n        # Formatname",
+        "peekOfCode": "class Student(models.Model):\n    name = models.CharField(max_length=30)\n    department = models.ForeignKey(Department, on_delete=models.CASCADE)\n    batch = models.ForeignKey(Batch, on_delete=models.CASCADE)\n    uid = models.CharField(max_length=100, unique=True)\n    password = models.CharField(default='student123')\n    admission_date = models.DateField(default=timezone.now)\n    def __str__(self):\n        return f\"{self.name} - {self.batch}\"\n    def check_password(self,rawpassword):",
         "detail": "QuizApp.Student.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "QuizApp.Student.urls",
+        "description": "QuizApp.Student.urls",
+        "peekOfCode": "urlpatterns = [\n    path('student_panel/', views.student_panel, name='stuent_panel'),\n]",
+        "detail": "QuizApp.Student.urls",
+        "documentation": {}
+    },
+    {
+        "label": "student_panel",
+        "kind": 2,
+        "importPath": "QuizApp.Student.views",
+        "description": "QuizApp.Student.views",
+        "peekOfCode": "def student_panel(request):\n   id = request.session.get('user_id');\n   student = Student.objects.get(pk=id)\n   quizzes = Student.objects.filter(teacher=student)\n   context={'quizzes':quizzes}\n   return render(request,'student_panel.html',context)",
+        "detail": "QuizApp.Student.views",
         "documentation": {}
     },
     {
@@ -1201,11 +1437,20 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Teacher.migrations.0004_rename_uid_teacher_uid_alter_teacher_password",
+        "description": "QuizApp.Teacher.migrations.0004_rename_uid_teacher_uid_alter_teacher_password",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Teacher', '0003_teacher_password'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='teacher',\n            old_name='UID',\n            new_name='uid',\n        ),",
+        "detail": "QuizApp.Teacher.migrations.0004_rename_uid_teacher_uid_alter_teacher_password",
+        "documentation": {}
+    },
+    {
         "label": "TeacherAdmin",
         "kind": 6,
         "importPath": "QuizApp.Teacher.admin",
         "description": "QuizApp.Teacher.admin",
-        "peekOfCode": "class TeacherAdmin(admin.ModelAdmin):\n    list_display = ['id','name', 'UID', 'department','password','status', 'join_date']\n    search_fields = ['UID']\n    readonly_fields=['UID','password']",
+        "peekOfCode": "class TeacherAdmin(admin.ModelAdmin):\n    list_display = ['id','name', 'uid','password', 'department','password','status', 'join_date']\n    search_fields = ['uid']\n    readonly_fields=['uid']",
         "detail": "QuizApp.Teacher.admin",
         "documentation": {}
     },
@@ -1223,8 +1468,98 @@
         "kind": 6,
         "importPath": "QuizApp.Teacher.models",
         "description": "QuizApp.Teacher.models",
-        "peekOfCode": "class Teacher(models.Model):\n    name = models.CharField(max_length=30)\n    department = models.ForeignKey(Department, on_delete=models.CASCADE)\n    UID = models.CharField(max_length=20, unique=True)\n    password = models.CharField(max_length=128, default=\"changeme123\")\n    status = models.CharField(max_length=30)  # e.g., Lecturer, Assistant Professor\n    join_date = models.DateField(default=timezone.now)\n    def __str__(self):\n        return f\"{self.name} ({self.UID})\"\n    def save(self, *args, **kwargs):",
+        "peekOfCode": "class Teacher(models.Model):\n    name = models.CharField(max_length=30)\n    department = models.ForeignKey(Department, on_delete=models.CASCADE)\n    uid = models.CharField(max_length=20, unique=True)\n    password = models.CharField(max_length=128, default=\"teacher123\")\n    status = models.CharField(max_length=30)  # e.g., Lecturer, Assistant Professor\n    join_date = models.DateField(default=timezone.now)\n    def __str__(self):\n        return f\"{self.name} ({self.uid})\"\n    def check_password(self,rawpassword):",
         "detail": "QuizApp.Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "QuizApp.Teacher.urls",
+        "description": "QuizApp.Teacher.urls",
+        "peekOfCode": "urlpatterns = [\n    path('teacher_panel/', views.teacher_panel, name='teacher_panel'),\n    path('new_quiz/', views.create_new_quiz, name='new_quiz'),\n]",
+        "detail": "QuizApp.Teacher.urls",
+        "documentation": {}
+    },
+    {
+        "label": "teacher_panel",
+        "kind": 2,
+        "importPath": "QuizApp.Teacher.views",
+        "description": "QuizApp.Teacher.views",
+        "peekOfCode": "def teacher_panel(request):\n   id = request.session.get('user_id');\n   teacher = Teacher.objects.get(pk=id)\n   quizzes = Quiz.objects.filter(teacher=teacher)\n   context={'quizzes':quizzes}\n   return render(request,'teacher_panel.html',context)\ndef create_new_quiz(request):\n    print(\"get new quiz\")\n    if request.method == \"POST\":\n        print(\"post new Quiz\")",
+        "detail": "QuizApp.Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_new_quiz",
+        "kind": 2,
+        "importPath": "QuizApp.Teacher.views",
+        "description": "QuizApp.Teacher.views",
+        "peekOfCode": "def create_new_quiz(request):\n    print(\"get new quiz\")\n    if request.method == \"POST\":\n        print(\"post new Quiz\")\n        user_id = request.session['user_id']\n        teacher = Teacher.objects.get(pk=user_id)\n        form = QuizForm(request.POST)\n        if form.is_valid():\n            print(\"save new quiz\")\n            quiz = form.save(commit=False)",
+        "detail": "QuizApp.Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationConfig",
+        "kind": 6,
+        "importPath": "QuizApp.authentication.apps",
+        "description": "QuizApp.authentication.apps",
+        "peekOfCode": "class AuthenticationConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'authentication'",
+        "detail": "QuizApp.authentication.apps",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "QuizApp.authentication.forms",
+        "description": "QuizApp.authentication.forms",
+        "peekOfCode": "class LoginForm(forms.Form):\n    uid = forms.CharField(max_length=50)\n    password = forms.CharField(widget=forms.PasswordInput)\n    role = forms.ChoiceField(choices=ROLE_CHOICES)",
+        "detail": "QuizApp.authentication.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ROLE_CHOICES",
+        "kind": 5,
+        "importPath": "QuizApp.authentication.forms",
+        "description": "QuizApp.authentication.forms",
+        "peekOfCode": "ROLE_CHOICES = (\n    ('student', 'Student'),\n    ('teacher', 'Teacher'),\n)\nclass LoginForm(forms.Form):\n    uid = forms.CharField(max_length=50)\n    password = forms.CharField(widget=forms.PasswordInput)\n    role = forms.ChoiceField(choices=ROLE_CHOICES)",
+        "detail": "QuizApp.authentication.forms",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "QuizApp.authentication.urls",
+        "description": "QuizApp.authentication.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.user_login, name='login'),\n    path('logout/', views.user_logout, name='logout'),\n    path('user_panel/', views.user_panel, name='user_panel'),\n]",
+        "detail": "QuizApp.authentication.urls",
+        "documentation": {}
+    },
+    {
+        "label": "user_login",
+        "kind": 2,
+        "importPath": "QuizApp.authentication.views",
+        "description": "QuizApp.authentication.views",
+        "peekOfCode": "def user_login(request):\n    # if user have session\n    if 'user_id' in request.session:\n        return redirect('quiz_list')\n    form = LoginForm(request.POST or None)\n    error = None\n    if request.method == 'POST' and form.is_valid():\n        uid = form.cleaned_data['uid']\n        password = form.cleaned_data['password']\n        role = form.cleaned_data['role']",
+        "detail": "QuizApp.authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_logout",
+        "kind": 2,
+        "importPath": "QuizApp.authentication.views",
+        "description": "QuizApp.authentication.views",
+        "peekOfCode": "def user_logout(request):\n    request.session.flush()  \n    return redirect('login')\ndef user_panel(request):\n    role=request.session['role']\n    if role=='student':\n        return redirect('student_panel')\n    return redirect('teacher_panel')",
+        "detail": "QuizApp.authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_panel",
+        "kind": 2,
+        "importPath": "QuizApp.authentication.views",
+        "description": "QuizApp.authentication.views",
+        "peekOfCode": "def user_panel(request):\n    role=request.session['role']\n    if role=='student':\n        return redirect('student_panel')\n    return redirect('teacher_panel')",
+        "detail": "QuizApp.authentication.views",
         "documentation": {}
     },
     {

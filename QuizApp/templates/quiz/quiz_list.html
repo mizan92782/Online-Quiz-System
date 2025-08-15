@@ -52,6 +52,15 @@
     <title>Document</title>
   </head>
   <body>
+    <header>
+      <div>
+        <h1>Quiz App</h1>
+        <p>Username: {{ request.session.username }}</p>
+        <p>Username: {{ request.session.user_id }}</p>
+        <a href="{% url 'user_panel' %}">logout</a>
+      </div>
+    </header>
+
     <h2>Active Quizzes</h2>
     {% if active_quizzes %}
       <div class="quiz-container">

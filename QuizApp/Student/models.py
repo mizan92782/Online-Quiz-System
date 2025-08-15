@@ -9,11 +9,16 @@ class Student(models.Model):
     name = models.CharField(max_length=30)
     department = models.ForeignKey(Department, on_delete=models.CASCADE)
     batch = models.ForeignKey(Batch, on_delete=models.CASCADE)
-    UID = models.CharField(max_length=100, unique=True)
+    uid = models.CharField(max_length=100, unique=True)
+    password = models.CharField(default='student123')
     admission_date = models.DateField(default=timezone.now)
 
     def __str__(self):
         return f"{self.name} - {self.batch}"
+    
+    
+    def check_password(self,rawpassword):
+        return self.password==rawpassword;
 
     def save(self, *args, **kwargs):
         # Formatname
@@ -22,8 +27,8 @@ class Student(models.Model):
         studentobj= Student.objects.count()+1
         from datetime import datetime
 
-        self.UID = f"{self.department} {datetime.now().year}{self.batch.batch}{studentobj}"
+        self.uid = f"{self.department} {datetime.now().year}{self.batch.batch}{studentobj}"
 
-        print(self.UID)
+        
 
         super().save(*args, **kwargs)
