@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+
+    <title>
+      {% block title %}
+        Document
+      {% endblock %}
+    </title>
+
+    {% block extra_css %}
+
+    {% endblock %}
+    {% block extra_js %}
+
+    {% endblock %}
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <h1>Quiz Application</h1>
+      </div>
+      <div class="header-right">
+        <a href="{% url 'user_panel' %}">{{ request.session.username }}</a>
+      </div>
+    </header>
+
+    <main>
+      {% block content %}
+
+      {% endblock %}
+    </main>
+  </body>
+</html>

@@ -15,12 +15,14 @@ class Quiz(models.Model):
     
     quiz_no =models.IntegerField(default=1)
     quiz_marks = models.IntegerField(default=10)
-    question = models.JSONField()  # Requires Django 3.1+ and PostgreSQL
+    question = models.JSONField()  
 
     start = models.DateTimeField()
     end = models.DateTimeField()
 
     created_at = models.DateTimeField(auto_now_add=True)
+    
+    published = models.BooleanField(default=False)
     
 
     def is_active(self):
@@ -40,6 +42,16 @@ class Quiz(models.Model):
     def __str__(self):
         return f"Quiz for {self.course.courseCode} - {self.batch.batch} - {self.teacher.name}"
     def save(self,*args, **kwargs):
-        self.title= f'{self.course.courseCode}-{self.course.courseName} : {self.batch} - Quiz no : {self.quiz_no}'
+        self.title= f'{self.course.courseCode}: {self.course.courseName}'
+        
+        #calculate marks
+        self.quiz_marks = 0
+        quiz_questions = self.question
+
+        
+        for q in quiz_questions:
+            self.quiz_marks += q.get("marks", 1)
+            
+        
         
         return super().save()

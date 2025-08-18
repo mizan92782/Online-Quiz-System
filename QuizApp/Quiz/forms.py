@@ -16,12 +16,12 @@ class QuizForm(forms.ModelForm):
         ]
         
         
-        exclude = ['teacher']
+        exclude = ['teacher','quiz_marks']
         
         
         widgets = {
             'start': forms.DateTimeInput(attrs={'type': 'datetime-local'}),
             'end': forms.DateTimeInput(attrs={'type': 'datetime-local'}),
             'question': forms.HiddenInput(),  # hide from user
-            'quiz_marks': forms.HiddenInput(),  # hide from user
+             # hide from user
         }

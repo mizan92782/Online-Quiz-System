@@ -9,6 +9,103 @@
         "documentation": {}
     },
     {
+        "label": "django.db",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db",
+        "description": "django.db",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -97,62 +194,6 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -274,6 +315,30 @@
     },
     {
         "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -366,6 +431,22 @@
         "description": "django.contrib",
         "isExtraImport": true,
         "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -569,11 +650,11 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -602,6 +683,46 @@
     },
     {
         "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
@@ -617,22 +738,6 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
         "label": "redirect",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
@@ -642,14 +747,6 @@
     },
     {
         "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
@@ -711,6 +808,22 @@
         "description": "django",
         "isExtraImport": true,
         "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
+        "documentation": {}
+    },
+    {
+        "label": "Teacher",
+        "importPath": "Teacher.models",
+        "description": "Teacher.models",
+        "isExtraImport": true,
+        "detail": "Teacher.models",
         "documentation": {}
     },
     {
@@ -818,11 +931,67 @@
         "documentation": {}
     },
     {
-        "label": "timezone",
-        "importPath": "time",
-        "description": "time",
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
         "isExtraImport": true,
-        "detail": "time",
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "batched",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "Student.models",
+        "description": "Student.models",
+        "isExtraImport": true,
+        "detail": "Student.models",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "Student.models",
+        "description": "Student.models",
+        "isExtraImport": true,
+        "detail": "Student.models",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "Student.models",
+        "description": "Student.models",
+        "isExtraImport": true,
+        "detail": "Student.models",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "Student.models",
+        "description": "Student.models",
+        "isExtraImport": true,
+        "detail": "Student.models",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "Student.models",
+        "description": "Student.models",
+        "isExtraImport": true,
+        "detail": "Student.models",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "Student.models",
+        "description": "Student.models",
+        "isExtraImport": true,
+        "detail": "Student.models",
         "documentation": {}
     },
     {
@@ -868,19 +1037,43 @@
         "documentation": {}
     },
     {
-        "label": "Student",
-        "importPath": "Student.models",
-        "description": "Student.models",
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
         "isExtraImport": true,
-        "detail": "Student.models",
+        "detail": "datetime",
         "documentation": {}
     },
     {
-        "label": "Student",
-        "importPath": "Student.models",
-        "description": "Student.models",
+        "label": "Submission",
+        "importPath": "submission.models",
+        "description": "submission.models",
         "isExtraImport": true,
-        "detail": "Student.models",
+        "detail": "submission.models",
+        "documentation": {}
+    },
+    {
+        "label": "Submission",
+        "importPath": "submission.models",
+        "description": "submission.models",
+        "isExtraImport": true,
+        "detail": "submission.models",
+        "documentation": {}
+    },
+    {
+        "label": "Submission",
+        "importPath": "submission.models",
+        "description": "submission.models",
+        "isExtraImport": true,
+        "detail": "submission.models",
+        "documentation": {}
+    },
+    {
+        "label": "Submission",
+        "importPath": "submission.models",
+        "description": "submission.models",
+        "isExtraImport": true,
+        "detail": "submission.models",
         "documentation": {}
     },
     {
@@ -921,6 +1114,39 @@
         "description": "Teacher.views",
         "isExtraImport": true,
         "detail": "Teacher.views",
+        "documentation": {}
+    },
+    {
+        "label": "Quiz",
+        "importPath": "Quiz.models",
+        "description": "Quiz.models",
+        "isExtraImport": true,
+        "detail": "Quiz.models",
+        "documentation": {}
+    },
+    {
+        "label": "Quiz",
+        "importPath": "Quiz.models",
+        "description": "Quiz.models",
+        "isExtraImport": true,
+        "detail": "Quiz.models",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -996,6 +1222,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Course.migrations.0003_alter_course_coursename",
+        "description": "QuizApp.Course.migrations.0003_alter_course_coursename",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Course', '0002_rename_coursecode_course_coursecode_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='course',\n            name='courseName',\n            field=models.CharField(max_length=100, unique=True),\n        ),",
+        "detail": "QuizApp.Course.migrations.0003_alter_course_coursename",
+        "documentation": {}
+    },
+    {
         "label": "CourseAdmin",
         "kind": 6,
         "importPath": "QuizApp.Course.admin",
@@ -1018,7 +1253,7 @@
         "kind": 6,
         "importPath": "QuizApp.Course.models",
         "description": "QuizApp.Course.models",
-        "peekOfCode": "class Course(models.Model):\n    courseCode = models.CharField(max_length=10, unique=True)  # e.g., CSE101\n    courseName = models.CharField(max_length=100)\n    credit = models.DecimalField(max_digits=4, decimal_places=2)  # e.g., 3.00\n    department =models.ForeignKey(Department, on_delete=models.CASCADE)\n    entryDate = models.DateField(default=timezone.now)\n    def __str__(self):\n        return f\"{self.courseCode} - {self.courseName}\"\n    def save(self, *args, **kwargs):\n        # Validation",
+        "peekOfCode": "class Course(models.Model):\n    courseCode = models.CharField(max_length=10, unique=True)  # e.g., CSE101\n    courseName = models.CharField(max_length=100,unique=True)\n    credit = models.DecimalField(max_digits=4, decimal_places=2)  # e.g., 3.00\n    department =models.ForeignKey(Department, on_delete=models.CASCADE)\n    entryDate = models.DateField(default=timezone.now)\n    def __str__(self):\n        return f\"{self.courseCode} - {self.courseName}\"\n    def save(self, *args, **kwargs):\n        # Validation",
         "detail": "QuizApp.Course.models",
         "documentation": {}
     },
@@ -1045,7 +1280,7 @@
         "kind": 6,
         "importPath": "QuizApp.Department.admin",
         "description": "QuizApp.Department.admin",
-        "peekOfCode": "class DepartmentAdmin(admin.ModelAdmin):\n  '''Admin View for Department'''\n  list_display = ['id','title','start']",
+        "peekOfCode": "class DepartmentAdmin(admin.ModelAdmin):\n  '''Admin View for Department'''\n  list_display = ['id','title','fullForm','start']",
         "detail": "QuizApp.Department.admin",
         "documentation": {}
     },
@@ -1086,11 +1321,20 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.Quiz.migrations.0003_quiz_published",
+        "description": "QuizApp.Quiz.migrations.0003_quiz_published",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Quiz', '0002_rename_end_quiz_end_rename_start_quiz_start_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='quiz',\n            name='published',\n            field=models.BooleanField(default=False),\n        ),",
+        "detail": "QuizApp.Quiz.migrations.0003_quiz_published",
+        "documentation": {}
+    },
+    {
         "label": "QuizAdmin",
         "kind": 6,
         "importPath": "QuizApp.Quiz.admin",
         "description": "QuizApp.Quiz.admin",
-        "peekOfCode": "class QuizAdmin(admin.ModelAdmin):\n    list_display = ('id','course', 'batch', 'teacher','question', 'quiz_no', 'quiz_marks' ,'start', 'end', 'created_at')\n    search_fields = ('course__courseCode', 'batch__Batch', 'teacher__Name')\n    list_filter = ('department', 'batch')\n    readonly_fields=['title']",
+        "peekOfCode": "class QuizAdmin(admin.ModelAdmin):\n    list_display = ('id','course', 'batch', 'teacher','question', 'quiz_no','quiz_marks','start', 'end', 'created_at')\n    search_fields = ('course__courseCode', 'batch__Batch', 'teacher__Name')\n    list_filter = ('start',)\n    readonly_fields=['title','quiz_marks']",
         "detail": "QuizApp.Quiz.admin",
         "documentation": {}
     },
@@ -1117,7 +1361,7 @@
         "kind": 6,
         "importPath": "QuizApp.Quiz.models",
         "description": "QuizApp.Quiz.models",
-        "peekOfCode": "class Quiz(models.Model):\n    title=models.CharField()\n    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)\n    batch = models.ForeignKey(Batch, on_delete=models.CASCADE)\n    department = models.ForeignKey(Department, on_delete=models.CASCADE)\n    course = models.ForeignKey(Course, on_delete=models.CASCADE)\n    quiz_no =models.IntegerField(default=1)\n    quiz_marks = models.IntegerField(default=10)\n    question = models.JSONField()  # Requires Django 3.1+ and PostgreSQL\n    start = models.DateTimeField()",
+        "peekOfCode": "class Quiz(models.Model):\n    title=models.CharField()\n    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)\n    batch = models.ForeignKey(Batch, on_delete=models.CASCADE)\n    department = models.ForeignKey(Department, on_delete=models.CASCADE)\n    course = models.ForeignKey(Course, on_delete=models.CASCADE)\n    quiz_no =models.IntegerField(default=1)\n    quiz_marks = models.IntegerField(default=10)\n    question = models.JSONField()  \n    start = models.DateTimeField()",
         "detail": "QuizApp.Quiz.models",
         "documentation": {}
     },
@@ -1126,7 +1370,7 @@
         "kind": 5,
         "importPath": "QuizApp.Quiz.urls",
         "description": "QuizApp.Quiz.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', views.quiz_list_view,name='quiz_list'),  # Include quiz app's URLs\n    path('quiz/<int:pk>/', views.quiz,name='quizQuesition'),  # Include quiz app's URLs\n]",
+        "peekOfCode": "urlpatterns = [\n    path('', views.quiz_list_view,name='quiz_list'),  # Include quiz app's URLs\n     # Include quiz app's URLs\n]",
         "detail": "QuizApp.Quiz.urls",
         "documentation": {}
     },
@@ -1135,16 +1379,7 @@
         "kind": 2,
         "importPath": "QuizApp.Quiz.views",
         "description": "QuizApp.Quiz.views",
-        "peekOfCode": "def quiz_list_view(request):\n    quizzes = Quiz.objects.all()\n    active_quizzes = [quiz for quiz in quizzes if quiz.is_active()]\n    upcoming_quizzes = [quiz for quiz in quizzes if quiz.is_comming()]\n    previous_quizzes = [quiz for quiz in quizzes if quiz.is_compeleted()]\n    return render(request, 'quiz/quiz_list.html', {\n        'active_quizzes': active_quizzes,\n        'upcoming_quizzes': upcoming_quizzes,\n        'previous_quizzes': previous_quizzes,\n    })",
-        "detail": "QuizApp.Quiz.views",
-        "documentation": {}
-    },
-    {
-        "label": "quiz",
-        "kind": 2,
-        "importPath": "QuizApp.Quiz.views",
-        "description": "QuizApp.Quiz.views",
-        "peekOfCode": "def quiz(request, pk):\n    quiz = get_object_or_404(Quiz, pk=pk)\n    # Check if quiz is active\n    now = timezone.now()\n    if quiz.is_compeleted():\n        status = \"completed\"\n    elif quiz.is_active():\n        status = \"active\"\n    else:\n        status = \"coming\"",
+        "peekOfCode": "def quiz_list_view(request):\n    quizzes = None\n    if request.session['role']=='student':\n        student_id= request.session.get('user_id')\n        student= Student.objects.get(pk=student_id)\n        quizzes= Quiz.objects.filter(\n            batch=student.batch,\n            department=student.department\n            )\n    else:",
         "detail": "QuizApp.Quiz.views",
         "documentation": {}
     },
@@ -1261,7 +1496,7 @@
         "kind": 5,
         "importPath": "QuizApp.QuizApp.settings",
         "description": "QuizApp.QuizApp.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\n# settings.py\nTIME_ZONE = \"Asia/Dhaka\"   # your timezone\nUSE_TZ = True              # keep this True\nUSE_I18N = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# For development: collect all static files into one folder\nSTATICFILES_DIRS = [",
         "detail": "QuizApp.QuizApp.settings",
         "documentation": {}
     },
@@ -1270,16 +1505,7 @@
         "kind": 5,
         "importPath": "QuizApp.QuizApp.settings",
         "description": "QuizApp.QuizApp.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "QuizApp.QuizApp.settings",
-        "documentation": {}
-    },
-    {
-        "label": "USE_I18N",
-        "kind": 5,
-        "importPath": "QuizApp.QuizApp.settings",
-        "description": "QuizApp.QuizApp.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = \"Asia/Dhaka\"   # your timezone\nUSE_TZ = True              # keep this True\nUSE_I18N = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# For development: collect all static files into one folder\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",   # global static folder (optional)\n]",
         "detail": "QuizApp.QuizApp.settings",
         "documentation": {}
     },
@@ -1288,7 +1514,16 @@
         "kind": 5,
         "importPath": "QuizApp.QuizApp.settings",
         "description": "QuizApp.QuizApp.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True              # keep this True\nUSE_I18N = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# For development: collect all static files into one folder\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",   # global static folder (optional)\n]\n# Default primary key field type",
+        "detail": "QuizApp.QuizApp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "QuizApp.QuizApp.settings",
+        "description": "QuizApp.QuizApp.settings",
+        "peekOfCode": "USE_I18N = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# For development: collect all static files into one folder\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",   # global static folder (optional)\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
         "detail": "QuizApp.QuizApp.settings",
         "documentation": {}
     },
@@ -1297,7 +1532,16 @@
         "kind": 5,
         "importPath": "QuizApp.QuizApp.settings",
         "description": "QuizApp.QuizApp.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = 'static/'\n# For development: collect all static files into one folder\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",   # global static folder (optional)\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "QuizApp.QuizApp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "QuizApp.QuizApp.settings",
+        "description": "QuizApp.QuizApp.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"static\",   # global static folder (optional)\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "QuizApp.QuizApp.settings",
         "documentation": {}
     },
@@ -1315,7 +1559,7 @@
         "kind": 5,
         "importPath": "QuizApp.QuizApp.urls",
         "description": "QuizApp.QuizApp.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('quiz', include('Quiz.urls')),  # Include quiz app's URLs\n    path('', include('authentication.urls'),name='authentication'),  # Include quiz app's URLs\n    path('teacher/', include('Teacher.urls'),name='teacher'),  # Include quiz app's URLs\n    path('student/', include('Student.urls'),name='student'),  # Include quiz app's URLs\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('quiz', include('Quiz.urls')),  # Include quiz app's URLs\n    path('', include('authentication.urls'),name='authentication'),  # Include quiz app's URLs\n    path('teacher/', include('Teacher.urls'),name='teacher'),  # Include quiz app's URLs\n    path('student/', include('Student.urls'),name='student'),  # Include quiz app's URLs\n    path('submission/', include('submission.urls'),name='submission'),  # Include quiz app's URLs\n]",
         "detail": "QuizApp.QuizApp.urls",
         "documentation": {}
     },
@@ -1396,7 +1640,7 @@
         "kind": 5,
         "importPath": "QuizApp.Student.urls",
         "description": "QuizApp.Student.urls",
-        "peekOfCode": "urlpatterns = [\n    path('student_panel/', views.student_panel, name='stuent_panel'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('student_panel/', views.student_panel, name='student_panel'),\n]",
         "detail": "QuizApp.Student.urls",
         "documentation": {}
     },
@@ -1405,7 +1649,7 @@
         "kind": 2,
         "importPath": "QuizApp.Student.views",
         "description": "QuizApp.Student.views",
-        "peekOfCode": "def student_panel(request):\n   id = request.session.get('user_id');\n   student = Student.objects.get(pk=id)\n   quizzes = Student.objects.filter(teacher=student)\n   context={'quizzes':quizzes}\n   return render(request,'student_panel.html',context)",
+        "peekOfCode": "def student_panel(request):\n   id = request.session.get('user_id');\n   student = Student.objects.get(pk=id)\n   result_published = Submission.objects.filter(\n    student=student,\n    quiz__published=True   \n    )   \n   result_not_published = Submission.objects.filter(\n      student=student,\n    quiz__published=False ",
         "detail": "QuizApp.Student.views",
         "documentation": {}
     },
@@ -1560,6 +1804,51 @@
         "description": "QuizApp.authentication.views",
         "peekOfCode": "def user_panel(request):\n    role=request.session['role']\n    if role=='student':\n        return redirect('student_panel')\n    return redirect('teacher_panel')",
         "detail": "QuizApp.authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "QuizApp.submission.migrations.0001_initial",
+        "description": "QuizApp.submission.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('Quiz', '0002_rename_end_quiz_end_rename_start_quiz_start_and_more'),\n        ('Student', '0004_rename_uid_student_uid_student_password'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Submission',\n            fields=[",
+        "detail": "QuizApp.submission.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionAdmin",
+        "kind": 6,
+        "importPath": "QuizApp.submission.admin",
+        "description": "QuizApp.submission.admin",
+        "peekOfCode": "class SubmissionAdmin(admin.ModelAdmin):\n  list_display=['id','quiz','student','marks']",
+        "detail": "QuizApp.submission.admin",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionConfig",
+        "kind": 6,
+        "importPath": "QuizApp.submission.apps",
+        "description": "QuizApp.submission.apps",
+        "peekOfCode": "class SubmissionConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'submission'",
+        "detail": "QuizApp.submission.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Submission",
+        "kind": 6,
+        "importPath": "QuizApp.submission.models",
+        "description": "QuizApp.submission.models",
+        "peekOfCode": "class Submission(models.Model):\n    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE)\n    student = models.ForeignKey(Student, on_delete=models.CASCADE)\n    submission = models.JSONField()  # student's answers\n    submission_on = models.DateField(auto_now_add=True)\n    submitted = models.BooleanField(default=False)\n    marks = models.IntegerField(default=0)\n    class Meta:\n        unique_together = (\"quiz\", \"student\")\n    def save(self, *args, **kwargs):",
+        "detail": "QuizApp.submission.models",
+        "documentation": {}
+    },
+    {
+        "label": "quiz",
+        "kind": 2,
+        "importPath": "QuizApp.submission.views",
+        "description": "QuizApp.submission.views",
+        "peekOfCode": "def quiz(request, pk):\n    quiz = get_object_or_404(Quiz, pk=pk)\n    user_id = request.session.get('user_id')\n    if not user_id:\n        return HttpResponse(\"No user logged in. Please log in first.\", status=400)\n    try:\n        student = Student.objects.get(pk=user_id)\n    except Student.DoesNotExist:\n        return HttpResponse(\"Student not found. Please contact admin.\", status=404)\n    # Check if submission already exists",
+        "detail": "QuizApp.submission.views",
         "documentation": {}
     },
     {

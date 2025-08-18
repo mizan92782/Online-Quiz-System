@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'Student',
     'Course',
     'Quiz',
+    'submission'
 ]
 
 MIDDLEWARE = [
@@ -116,17 +117,26 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# settings.py
+TIME_ZONE = "Asia/Dhaka"   # your timezone
+USE_TZ = True              # keep this True
+
 
 USE_I18N = True
 
-USE_TZ = True
+
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# For development: collect all static files into one folder
+STATICFILES_DIRS = [
+    BASE_DIR / "static",   # global static folder (optional)
+]
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field

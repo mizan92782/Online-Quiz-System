@@ -5,10 +5,13 @@ from Department.models import Department
 
 class Course(models.Model):
     courseCode = models.CharField(max_length=10, unique=True)  # e.g., CSE101
-    courseName = models.CharField(max_length=100)
+    courseName = models.CharField(max_length=100,unique=True)
     credit = models.DecimalField(max_digits=4, decimal_places=2)  # e.g., 3.00
     department =models.ForeignKey(Department, on_delete=models.CASCADE)
     entryDate = models.DateField(default=timezone.now)
+    
+    
+
 
     def __str__(self):
         return f"{self.courseCode} - {self.courseName}"

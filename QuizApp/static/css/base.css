@@ -1,0 +1,40 @@
+:root {
+  --bg-color: rgb(40, 69, 230);
+  --fg-color: white;
+}
+
+body {
+  margin: 0px 0px 0px 0px;
+
+}
+
+main {
+  padding-inline: 2rem;
+}
+
+
+/* header*/
+header {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding-inline: 1rem;
+  text-align: center;
+}
+
+.header-right {
+  font-size: 1.5rem;
+}
+
+.header-right a {
+  color: white;
+  /* make link white */
+  text-decoration: none;
+  /* optional */
+}
+
+.header-right:hover {
+  font-size: 1.7rem;
+}

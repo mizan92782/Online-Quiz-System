@@ -11,6 +11,7 @@
       <h1 class="mb-4">Quizzes Created by You</h1>
 
       <a href="{% url 'new_quiz' %}">created new quizz</a>
+      <a href="{% url 'logout' %}">logout</a>
 
       {% if quizzes %}
         <div class="row">
@@ -43,5 +44,7 @@
         <div class="alert alert-warning">No quizzes found.</div>
       {% endif %}
     </div>
+
+    <a href="{% url 'logout' %}">logout</a>
   </body>
 </html>

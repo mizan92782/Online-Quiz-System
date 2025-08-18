@@ -1,14 +1,30 @@
-from time import timezone
-from django.shortcuts import render
-from django.utils import timezone
 
 # Create your views here.
 
+from itertools import batched
+import django.db
 from django.shortcuts import render
+
+from Teacher.models import Teacher
+from Student.models import Student
+from Teacher.models import Teacher
 from .models import Quiz
 
 def quiz_list_view(request):
-    quizzes = Quiz.objects.all()
+    quizzes = None
+    
+    if request.session['role']=='student':
+        student_id= request.session.get('user_id')
+        student= Student.objects.get(pk=student_id)
+        quizzes= Quiz.objects.filter(
+            batch=student.batch,
+            department=student.department
+            )
+        
+    else:
+        teacher_id= request.session.get('user_id')
+        teacher= Teacher.objects.get(pk=teacher_id)
+        quizzes= Quiz.objects.filter(teacher=teacher)
 
     active_quizzes = [quiz for quiz in quizzes if quiz.is_active()]
     upcoming_quizzes = [quiz for quiz in quizzes if quiz.is_comming()]
@@ -22,23 +38,3 @@ def quiz_list_view(request):
     
 
 
-from django.shortcuts import get_object_or_404
-
-def quiz(request, pk):
-    quiz = get_object_or_404(Quiz, pk=pk)
-    
-    # Check if quiz is active
-    now = timezone.now()
-    if quiz.is_compeleted():
-        status = "completed"
-    elif quiz.is_active():
-        status = "active"
-    else:
-        status = "coming"
-    
-    context = {
-        'quiz': quiz,
-        'status': status,
-        'now': now
-    }
-    return render(request, 'quiz/quiz.html',context)

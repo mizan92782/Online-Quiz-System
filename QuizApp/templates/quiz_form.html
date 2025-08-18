@@ -43,7 +43,6 @@
 
     <!-- This should be a hidden field in your Django form -->
     {{ form.question }}
-    {{ form.quiz_marks }}
 
     <h3>Questions</h3>
     <div id="quiz-container"></div>
@@ -107,17 +106,17 @@
         quizData.push({
           question: questionText,
           options: options,
-          correctAnswer: correct ? parseInt(correct) : null,
+          answer: correct? options[parseInt(correct)-1] : null,
           marks: parseInt(mark)
         });
       });
 
+      
+
      // calculate total marks
-    let markscount = quizData.reduce((sum, q) => sum + q.marks, 0);
 
     // set hidden fields
     document.querySelector('[name="question"]').value = JSON.stringify(quizData);
-    document.querySelector('[name="quiz_marks"]').value = markscount;
 
     if (quizData.length === 0) {
         alert("Please add at least one question.");

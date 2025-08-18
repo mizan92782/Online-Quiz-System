@@ -1,3 +1,4 @@
+from datetime import datetime
 from django.db import models
 from django.core.exceptions import ValidationError
 from django.utils import timezone
@@ -28,7 +29,7 @@ class Teacher(models.Model):
         # Example uid: DEPCode + "T" + 3-digit ID
         dep_code = self.department.title;
         next_id = (Teacher.objects.count() + 1)
-        self.uid = f"{dep_code} {next_id}"
+        self.uid = f"{dep_code}{datetime.now().year}{next_id}"
     
 
         super().save(*args, **kwargs)

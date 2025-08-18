@@ -7,5 +7,5 @@ from .models import Department
 class DepartmentAdmin(admin.ModelAdmin):
   '''Admin View for Department'''
 
-  list_display = ['id','title','start']
+  list_display = ['id','title','fullForm','start']
   

@@ -1,110 +1,72 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      .quiz-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        margin-bottom: 20px;
-      }
-      
-      .quiz-card {
-        display: block;
-        width: 250px;
-        padding: 20px;
-        background: #f0f4f8;
-        border-radius: 12px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        text-decoration: none;
-        color: #333;
-        transition: transform 0.2s, box-shadow 0.2s;
-      }
-      
-      .quiz-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-      }
-      
-      .quiz-card h3 {
-        margin-top: 0;
-        font-size: 1.2em;
-        color: #007bff;
-      }
-      
-      .quiz-card p {
-        margin: 5px 0 0 0;
-        font-size: 0.9em;
-        color: #555;
-      }
-      
-      /* Optional: color coding by status */
-      .quiz-card.upcoming {
-        border-left: 5px solid orange;
-      }
-      
-      .quiz-card.previous {
-        border-left: 5px solid gray;
-      }
-    </style>
+{% extends 'base.html' %}
+{% comment %}title blcok{% endcomment %}
+<title>
+  {% block title %}
+    Quiz List
+  {% endblock %}
+</title>
 
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <div>
-        <h1>Quiz App</h1>
-        <p>Username: {{ request.session.username }}</p>
-        <p>Username: {{ request.session.user_id }}</p>
-        <a href="{% url 'user_panel' %}">logout</a>
-      </div>
-    </header>
+{% comment %}exta css{% endcomment %}
+{% load static %}
 
-    <h2>Active Quizzes</h2>
-    {% if active_quizzes %}
-      <div class="quiz-container">
-        {% for quiz in active_quizzes %}
-          <a href="{% url 'quizQuesition' quiz.id %}" class="quiz-card">
-            <h3>{{ quiz.title }}</h3>
-            <p>Start: {{ quiz.start|date:'M d, Y H:i' }} | End: {{ quiz.end|date:'M d, Y H:i' }}</p>
-          </a>
-        {% endfor %}
-      </div>
-    {% else %}
-      <p>No active quizzes right now.</p>
-    {% endif %}
+{% block extra_css %}
+  <link rel="stylesheet" href="{% static 'css/quizList.css' %}" />
+{% endblock %}
 
-    <hr />
+<!-- content block -->
+{% block content %}
+  <h2>Active Quizzes</h2>
+  {% if active_quizzes %}
+    <div class="quiz-container">
+      {% for quiz in active_quizzes %}
+        <a href="{% url 'quizQuesition' quiz.id %}" class="quiz-card">
+          <h3>{{ quiz.course.courseCode }} : {{ quiz.course.courseName }}</h3>
+          <h4>Quiz : {{ quiz.quiz_no }}</h4>
+          <h4>{{ quiz.department.title }}-{{ quiz.batch.title }}</h4>
+          <p>Start: {{ quiz.start|date:'M d, Y  H:i' }}</p>
+          <p>End: {{ quiz.end|date:'M d, Y H:i' }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>No active quizzes right now.</p>
+  {% endif %}
 
-    <h2>Upcoming Quizzes</h2>
-    {% if upcoming_quizzes %}
-      <div class="quiz-container">
-        {% for quiz in upcoming_quizzes %}
-          <a href="{% url 'quizQuesition' quiz.id %}" class="quiz-card upcoming">
-            <h3>{{ quiz.title }}</h3>
-            <p>Start: {{ quiz.start|date:'M d, Y H:i' }} | End: {{ quiz.end|date:'M d, Y H:i' }}</p>
-          </a>
-        {% endfor %}
-      </div>
-    {% else %}
-      <p>No upcoming quizzes.</p>
-    {% endif %}
+  <hr />
 
-    <hr />
+  <h2>Upcoming Quizzes</h2>
+  {% if upcoming_quizzes %}
+    <div class="quiz-container">
+      {% for quiz in upcoming_quizzes %}
+        <a href="{% url 'quizQuesition' quiz.id %}" class="quiz-card upcoming">
+          <h3>{{ quiz.course.courseCode }} : {{ quiz.course.courseName }}</h3>
+          <h4>Quiz : {{ quiz.quiz_no }}</h4>
+          <h4>{{ quiz.department.title }}-{{ quiz.batch.title }}</h4>
+          <p>Start: {{ quiz.start|date:'M d, Y  H:i' }}</p>
+          <p>End: {{ quiz.end|date:'M d, Y H:i' }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>No upcoming quizzes.</p>
+  {% endif %}
 
-    <h2>Previous Quizzes</h2>
-    {% if previous_quizzes %}
-      <div class="quiz-container">
-        {% for quiz in previous_quizzes %}
-          <a href="{% url 'quizQuesition' quiz.id %}" class="quiz-card previous">
-            <h3>{{ quiz.title }}</h3>
-            <p>Start: {{ quiz.start|date:'M d, Y H:i' }} | End: {{ quiz.end|date:'M d, Y H:i' }}</p>
-          </a>
-        {% endfor %}
-      </div>
-    {% else %}
-      <p>No previous quizzes.</p>
-    {% endif %}
-  </body>
-</html>
+  <hr />
+
+  <h2>Previous Quizzes</h2>
+  {% if previous_quizzes %}
+    <div class="quiz-container">
+      {% for quiz in previous_quizzes %}
+        <a href="{% url 'quizQuesition' quiz.id %}" class="quiz-card previous">
+          <h3>{{ quiz.course.courseCode }} : {{ quiz.course.courseName }}</h3>
+          <h4>Quiz : {{ quiz.quiz_no }}</h4>
+          <h4>{{ quiz.department.title }}-{{ quiz.batch.title }}</h4>
+          <p>Start: {{ quiz.start|date:'M d, Y  H:i' }}</p>
+          <p>End: {{ quiz.end|date:'M d, Y H:i' }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>No previous quizzes.</p>
+  {% endif %}
+{% endblock %}

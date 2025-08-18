@@ -27,4 +27,5 @@ urlpatterns = [
     path('', include('authentication.urls'),name='authentication'),  # Include quiz app's URLs
     path('teacher/', include('Teacher.urls'),name='teacher'),  # Include quiz app's URLs
     path('student/', include('Student.urls'),name='student'),  # Include quiz app's URLs
+    path('submission/', include('submission.urls'),name='submission'),  # Include quiz app's URLs
 ]
