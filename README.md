@@ -1,25 +1,37 @@
 # QuizApp
 
-**QuizApp** is a Django-based web application for managing quizzes.  
+**Online Quiz System** is a Django-based web application for managing quizzes of a institute.  
 It allows teachers to create quizzes, assign them to courses and batches, and allows students to take quizzes with a timer.
 
 ---
 
 ## Features
-- Teacher can create quizzes for a specific course and batch.
-- Quizzes can have multiple-choice questions (MCQs) with options A, B, C, D.
-- Automatic timer for quizzes with auto-submit when time ends.
-- Categorized quizzes: Active, Upcoming, and Previous.
-- JSON-based question storage for flexibility.
-- Clean, interactive, and responsive UI.
+-Teacher can create quizzes with time categorized as Active, Upcoming, and Previous.
 
+-Teacher can create quizzes for a specific course and batch.
+
+-Quizzes can have multiple-choice questions (MCQs) with options A, B, C, D and different marks.
+
+-JSON-based question storage for flexibility in the number of questions and marks.
+
+-On the home page, a teacher only sees quizzes created by him (Active, Upcoming, Previous).
+
+-In the teacher dashboard, the teacher can view quizzes that are time-up and control whether results are published or not.
+
+-Students can see quizzes assigned to them (based on batch and department).
+
+-Automatic timer for quizzes with auto-submit when time ends.
+
+-In the student dashboard, students can see quizzes they have attempted as well as the quizzes where the teacher has published or not published the results.
+
+-Clean, interactive, and responsive UI.
 ---
 
 ## Tech Stack
-- **Backend:** Django 4.x  
+- **Backend:** Django   
 - **Database:** PostgreSQL (JSONField for questions)  
 - **Frontend:** HTML, CSS, JavaScript  
-- **Deployment:** Heroku, VPS, or other hosting platforms  
+
 
 ---
 
@@ -27,8 +39,8 @@ It allows teachers to create quizzes, assign them to courses and batches, and al
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/QuizApp.git
-   cd QuizApp
+   git clone git@github.com:mizan92782/Online-Quiz-System.git
+   cd Online-Quiz-System
    ```
 
 2. Create a virtual environment and activate it:
@@ -78,6 +90,8 @@ QuizApp/
 ├─ Batch/           # Batch app
 ├─ Department/      # Department app
 ├─ Course/          # Course app
+├─ submisson        # Quiz submissions app
+├─ Student          # Student app
 ├─ templates/       # HTML templates
 ├─ static/          # CSS/JS files
 └─ manage.py
@@ -104,4 +118,4 @@ QuizApp/
 ---
 
 ## License
-MIT License © 2025 [Your Name]
+MIT License © 2025 [Mizanur Rahman]
