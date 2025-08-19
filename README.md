@@ -7,23 +7,14 @@ It allows teachers to create quizzes, assign them to courses and batches, and al
 
 ## Features
 -Teacher can create quizzes with time categorized as Active, Upcoming, and Previous.
-
 -Teacher can create quizzes for a specific course and batch.
-
 -Quizzes can have multiple-choice questions (MCQs) with options A, B, C, D and different marks.
-
 -JSON-based question storage for flexibility in the number of questions and marks.
-
 -On the home page, a teacher only sees quizzes created by him (Active, Upcoming, Previous).
-
 -In the teacher dashboard, the teacher can view quizzes that are time-up and control whether results are published or not.
-
 -Students can see quizzes assigned to them (based on batch and department).
-
 -Automatic timer for quizzes with auto-submit when time ends.
-
 -In the student dashboard, students can see quizzes they have attempted as well as the quizzes where the teacher has published or not published the results.
-
 -Clean, interactive, and responsive UI.
 ---
 
