@@ -6,6 +6,7 @@ It allows teachers to create quizzes, assign them to courses and batches, and al
 ---
 
 ## Features
+
 -Teacher can create quizzes with time categorized as Active, Upcoming, and Previous.
 -Teacher can create quizzes for a specific course and batch.
 -Quizzes can have multiple-choice questions (MCQs) with options A, B, C, D and different marks.
