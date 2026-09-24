@@ -4,3 +4,5 @@ venv/
 temp_interactive_push.bat
 branch_structure.json
 public/
+config.bat
+node_modules
